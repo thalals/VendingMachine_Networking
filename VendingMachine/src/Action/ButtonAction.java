@@ -98,7 +98,10 @@ public class ButtonAction implements ActionListener {
 								canModel.addRow(arr);
 							}
 							getCan.setIcon(new ImageIcon("return" + i + ".png"));
-
+							
+							if(CanArray.canList.get(i).getCanNum() == 0) {
+								
+							}
 						}
 						else { // 재고가 없으면
 							JOptionPane.showMessageDialog(new JFrame(), "죄송합니다.. 음료 재고가 없습니다 ㅠ_ㅠ");
